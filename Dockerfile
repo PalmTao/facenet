@@ -16,6 +16,7 @@ COPY jupyter_notebook_config.py /root/.jupyter/
 #   https://github.com/ipython/ipython/issues/7062
 # We just add a little wrapper script.
 COPY run_jupyter.sh /
+RUN chmod +x /run_jupyter.sh
 
 # For CUDA profiling, TensorFlow requires CUPTI.
 ENV LD_LIBRARY_PATH /usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH

@@ -7,3 +7,7 @@ matplotlib
 Pillow
 requests
 psutil
+ipykernel
+jupyter
+numpy
+pandas

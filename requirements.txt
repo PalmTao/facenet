@@ -11,3 +11,7 @@ ipykernel
 jupyter
 numpy
 pandas
+pony 
+scikit-image 
+xlrd 
+easydict

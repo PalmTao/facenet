@@ -9,6 +9,9 @@ ADD requirements.txt ./
 RUN pip3 install -r ./requirements.txt && \
     rm ./requirements.txt 
 
+# download ffmpeg required
+RUN imageio_download_bin ffmpeg
+
 # Set up our notebook config.
 COPY jupyter_notebook_config.py /root/.jupyter/
 

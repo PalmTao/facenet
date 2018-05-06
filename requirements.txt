@@ -15,3 +15,5 @@ pony
 scikit-image 
 xlrd 
 easydict
+moviepy==0.2.2.11
+six==1.10.0
